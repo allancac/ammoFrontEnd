@@ -1,5 +1,7 @@
 import react, {useState} from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
+import logo from '../../public/AMMO-VAREJO-2.png'
 
 const Header = () =>{
     //Variável de estado para controlar o texto do input
@@ -15,7 +17,7 @@ const Header = () =>{
             <div className='nav bg-gray-200 p-4'>
                 <div className='container mx-auto flex flex-nowrap justify-between'>
                     <div className='' >
-                        <img className='h-14' src='/AMMO-VAREJO-2.png'/>
+                        <Image width={250} height={100} src={logo} alt="Logotipo"/>
                     </div>
 
                     {/* <div className=''>
