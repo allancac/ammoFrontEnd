@@ -5,7 +5,9 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import '../styles/globals.css'
 
-const  MyApp = ({ Component, pageProps }) =>{
+const  MyApp = ({ Component, pageProps}) =>{
+  
+
   return (
     <Fragment>
       <Head>
@@ -14,9 +16,9 @@ const  MyApp = ({ Component, pageProps }) =>{
       </Head>
 
       <Header/>
-      <Component {...pageProps} />
+      <Component {...pageProps} teste = "Teste de propiedade"/>
       <Footer/>
-
+      
     </Fragment>
   )
 }
