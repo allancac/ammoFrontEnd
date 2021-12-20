@@ -9,8 +9,6 @@ const Header = () =>{
         setBusca(event.target.value);
     }
 
-    
-
     return(    
         <div>
 
@@ -30,13 +28,14 @@ const Header = () =>{
 
                     <div className=''>
                         <input 
+                            name='inputBuscar'
+                            id='inputBuscar'
                             type='text' 
                             value={busca}
                             onChange={textoInput.bind(this)}
-                        
-
+                            placeholder='Buscar um produto.'
+            
                         />
-
 
                     </div>
                 </div>

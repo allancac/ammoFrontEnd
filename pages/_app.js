@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import '../styles/globals.css'
 
 const  MyApp = ({ Component, pageProps}) =>{
-  
+
 
   return (
     <Fragment>
@@ -16,7 +16,7 @@ const  MyApp = ({ Component, pageProps}) =>{
       </Head>
 
       <Header/>
-      <Component {...pageProps} teste = "Teste de propiedade"/>
+      <Component {...pageProps}/>
       <Footer/>
       
     </Fragment>

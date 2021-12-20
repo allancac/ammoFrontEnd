@@ -3,7 +3,7 @@ import axios from 'axios'
 import Produtos from '../components/Produtos'
 import Paginacao from '../components/Paginacao'
 
- const  Home = () => {
+ const  Home = (props) => {
   // Variáveis de estado para controlar a paginação
   const [listaProdutos, setListaProdutos] = useState([])
   const [carregando, setCarregando] = useState(false)
