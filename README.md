@@ -1,3 +1,7 @@
+## Projeto criado para teste técnico da entrevista de emprego da AMMO varejos.
+
+Cargo - Desenvolvedor Full-Stack Junior
+
 Projeto criado com o [Next.js](https://nextjs.org/) projeto instalado com o  [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## 1 - Execução servidor de desenvolvimento
